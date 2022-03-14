@@ -3,6 +3,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 100px;
+}
+
+h2 {
+  text-align: center;
+}
+
 /*NAVBAR*/
 .topnav {
   background-color: rgb(165, 14, 102);
@@ -66,12 +76,12 @@ body {
 
 /*END OF SEARCH BAR*/
 
-h1 {
-  text-align: center;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 100px;
-}
-
-h2 {
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(165, 14, 102);
+  color: white;
   text-align: center;
 }
