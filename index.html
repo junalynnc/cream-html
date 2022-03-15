@@ -4,6 +4,10 @@
         <meta charset="UTF-8" />
         <title>C.R.E.A.M. | Cosmetics Rule Everyting Around Me</title>
 
+          <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+        <!--MAIN CSS & OTHERS-->
         <link rel="stylesheet" href="styles.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,9 +27,11 @@
                 <a href="#signin">SIGN IN</a>   
         </div>
 
+        <!--HEADING-->
         <h1>CREAM</h1>
         <h2>Cosmetics Rule Everything Around Me</h2>
 
+        <!--SEARCH BAR-->
         <div>
             <form class="form-inline">
                 <div class="input-group">
@@ -37,8 +43,69 @@
             </form>
         </div>
 
-        <div class="footer">
-            Footer
-        </div>
+        <!--FOOTER-->
+        <footer class="site-footer">
+            <div class="container">
+              <div class="row">
+                <!-- LINKS -->
+                <div class="col col-sm-2 text-center">
+                  <h3>Where to?</h3>
+                  <ul class="list-unstyled">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contactus.html">Contact</a></li>
+                  </ul>
+                </div>
+        
+                <!-- SUBSCRIPTION -->
+                <div class="col col-sm-4 text-center">
+                  <h3>Subscribe for updates!</h3>
+                  <div class="offset">
+                    <form>
+                      <input type="email" class="form-control" id="emailInput" placeholder="Email address">
+                    </form>
+                  </div>
+                </div>
+        
+                <!-- SOCIAL MEDIA -->
+                <div class="col col-sm-3 text-center">
+                  <h3>Get social with us!</h3>
+                  <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/">
+                    <i class="fa fa-instagram fa-3x"></i>
+                  </a>
+                  <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/">
+                    <i class="fa fa-facebook-square fa-3x"></i>
+                  </a>
+                  <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/">
+                    <i class="fa fa-twitter-square fa-3x"></i>
+                  </a>
+                  <a class="btn btn-social-icon btn-google" href="http://youtube.com/">
+                    <i class="fa fa-youtube-square fa-3x"></i>
+                  </a>
+                </div>
+        
+                <!-- CONTACT INFO -->
+                <div class="col col-sm-3 text-center">
+                  <h3>Keep in touch!</h3>
+                  <div>
+                    <a role="button" class="btn btn-link"
+                      href="https://www.google.com/maps/dir//island+gourmet/@38.02571,-121.3597165,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80900956487db9d7:0x9c257ce301f80e99!2m2!1d-121.3551142!2d38.0229982">
+                      <i class="fa fa-map-marker"></i>
+                      12345 Somewhere St. <br>Stockton, CA 95209<br>
+                    </a>
+                    <a role="button" class="btn btn-link" href="tel:+12091234567">
+                      <i class="fa fa-phone"></i>
+                      1-209-123-4567
+                    </a><br>
+                    <a role="button" class="btn btn-link" href="mailto:info@filipinokitchen.com">
+                      <i class="fa fa-envelope-o"></i>
+                      info@filipinokitchen.com
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
     </body>
 </html>
