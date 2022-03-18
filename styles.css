@@ -7,7 +7,7 @@ h1 {
   text-align: center;
   margin: 50px;
   font-family: "Bangers", cursive;
-  font-size: 150px;
+  font-size: 130px;
 }
 
 h2 {
@@ -82,6 +82,7 @@ h2 {
 
 /*END OF SEARCH BAR*/
 
+/*FOOTER*/
 .site-footer {
   position: fixed;
   padding: 20px 0;
@@ -91,4 +92,26 @@ h2 {
   background-color: rgb(165, 14, 102);
   color: white;
   text-align: center;
+}
+
+/*ABOUT US CARDS*/
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  border-radius: 5px 5px 0 0;
 }
