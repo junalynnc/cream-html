@@ -16,6 +16,10 @@ h2 {
   font-size: 40px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 /*NAVBAR*/
 .topnav {
   background-color: rgb(165, 14, 102);
@@ -47,7 +51,7 @@ h2 {
 /*END OF NAVBAR*/
 
 /*SEARCH BAR*/
-#search {
+#search-bar {
   width: 1000px;
   text-align: center;
   display: block;
@@ -75,9 +79,10 @@ h2 {
 
 .input-group {
   /*div around search bar and icon*/
-  width: 100%;
   display: flex;
   justify-content: center;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 /*END OF SEARCH BAR*/
@@ -94,24 +99,23 @@ h2 {
   text-align: center;
 }
 
-/*ABOUT US CARDS*/
-.card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
+/*ABOUT US SECTION*/
+.col-1 {
+  width: 30%;
 }
 
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+.col-2 {
+  width: 70%;
 }
 
-/* Add some padding inside the card container */
-.container {
-  padding: 2px 16px;
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  border: 5px solid rgb(165, 14, 102);
 }
 
-/* Add rounded corners to the top left and the top right corner of the image */
-img {
-  border-radius: 5px 5px 0 0;
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
